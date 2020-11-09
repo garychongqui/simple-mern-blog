@@ -32,7 +32,6 @@ const ArticleForm = ({ history }) => {
     };
   
     return (
-      <div>
         <Form onSubmit={handleSubmit}>
           <Form.Group controlId="formBasicEmail">
             <Form.Label>Title</Form.Label>
@@ -56,7 +55,6 @@ const ArticleForm = ({ history }) => {
             Submit
           </Button>
         </Form>
-      </div>
     );
   };
   
